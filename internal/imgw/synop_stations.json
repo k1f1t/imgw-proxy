@@ -1,0 +1,498 @@
+[
+  {
+    "id": "12001",
+    "name": "Platforma",
+    "lat": 55.4817,
+    "lon": 18.1778,
+    "elevation": 25.0,
+    "teryt": ""
+  },
+  {
+    "id": "12100",
+    "name": "Kołobrzeg",
+    "lat": 54.158333,
+    "lon": 15.388889,
+    "elevation": 4.0,
+    "teryt": "3208"
+  },
+  {
+    "id": "12105",
+    "name": "Koszalin",
+    "lat": 54.204444,
+    "lon": 16.155278,
+    "elevation": 33.0,
+    "teryt": "3261"
+  },
+  {
+    "id": "12115",
+    "name": "Ustka",
+    "lat": 54.588333,
+    "lon": 16.854167,
+    "elevation": 3.0,
+    "teryt": "2212"
+  },
+  {
+    "id": "12120",
+    "name": "Łeba",
+    "lat": 54.753611,
+    "lon": 17.534722,
+    "elevation": 1.0,
+    "teryt": "2208"
+  },
+  {
+    "id": "12125",
+    "name": "Lębork",
+    "lat": 54.553056,
+    "lon": 17.756944,
+    "elevation": 39.0,
+    "teryt": "2208"
+  },
+  {
+    "id": "12135",
+    "name": "Hel",
+    "lat": 54.603611,
+    "lon": 18.811944,
+    "elevation": 1.0,
+    "teryt": "2211"
+  },
+  {
+    "id": "12155",
+    "name": "Gdańsk",
+    "lat": 54.333611,
+    "lon": 18.934444,
+    "elevation": 7.0,
+    "teryt": "2261"
+  },
+  {
+    "id": "12160",
+    "name": "Elbląg",
+    "lat": 54.223333,
+    "lon": 19.543611,
+    "elevation": 189.0,
+    "teryt": "2861"
+  },
+  {
+    "id": "12185",
+    "name": "Kętrzyn",
+    "lat": 54.067222,
+    "lon": 21.366667,
+    "elevation": 107.0,
+    "teryt": "2808"
+  },
+  {
+    "id": "12195",
+    "name": "Suwałki",
+    "lat": 54.130833,
+    "lon": 22.948889,
+    "elevation": 184.0,
+    "teryt": "2063"
+  },
+  {
+    "id": "12200",
+    "name": "Świnoujście",
+    "lat": 53.923333,
+    "lon": 14.242222,
+    "elevation": 4.0,
+    "teryt": "3263"
+  },
+  {
+    "id": "12205",
+    "name": "Szczecin",
+    "lat": 53.395278,
+    "lon": 14.622778,
+    "elevation": 1.0,
+    "teryt": "3262"
+  },
+  {
+    "id": "12210",
+    "name": "Resko",
+    "lat": 53.763611,
+    "lon": 15.393333,
+    "elevation": 52.0,
+    "teryt": "3218"
+  },
+  {
+    "id": "12215",
+    "name": "Szczecinek",
+    "lat": 53.717778,
+    "lon": 16.746667,
+    "elevation": 139.0,
+    "teryt": "3215"
+  },
+  {
+    "id": "12230",
+    "name": "Piła",
+    "lat": 53.130556,
+    "lon": 16.747222,
+    "elevation": 72.0,
+    "teryt": "3019"
+  },
+  {
+    "id": "12235",
+    "name": "Chojnice",
+    "lat": 53.715278,
+    "lon": 17.5325,
+    "elevation": 164.0,
+    "teryt": "2202"
+  },
+  {
+    "id": "12250",
+    "name": "Toruń",
+    "lat": 53.041944,
+    "lon": 18.595556,
+    "elevation": 69.0,
+    "teryt": "0463"
+  },
+  {
+    "id": "12270",
+    "name": "Mława",
+    "lat": 53.104167,
+    "lon": 20.361111,
+    "elevation": 147.0,
+    "teryt": "1413"
+  },
+  {
+    "id": "12272",
+    "name": "Olsztyn",
+    "lat": 53.768611,
+    "lon": 20.421389,
+    "elevation": 133.0,
+    "teryt": "2862"
+  },
+  {
+    "id": "12280",
+    "name": "Mikołajki",
+    "lat": 53.789167,
+    "lon": 21.589722,
+    "elevation": 127.0,
+    "teryt": "2810"
+  },
+  {
+    "id": "12285",
+    "name": "Ostrołęka",
+    "lat": 53.065833,
+    "lon": 21.533889,
+    "elevation": 94.0,
+    "teryt": "1461"
+  },
+  {
+    "id": "12295",
+    "name": "Białystok",
+    "lat": 53.107222,
+    "lon": 23.162222,
+    "elevation": 148.0,
+    "teryt": "2061"
+  },
+  {
+    "id": "12300",
+    "name": "Gorzów",
+    "lat": 52.741111,
+    "lon": 15.277222,
+    "elevation": 71.0,
+    "teryt": "0861"
+  },
+  {
+    "id": "12310",
+    "name": "Słubice",
+    "lat": 52.348611,
+    "lon": 14.619722,
+    "elevation": 53.0,
+    "teryt": "0805"
+  },
+  {
+    "id": "12330",
+    "name": "Poznań",
+    "lat": 52.416667,
+    "lon": 16.834722,
+    "elevation": 88.0,
+    "teryt": "3064"
+  },
+  {
+    "id": "12345",
+    "name": "Koło",
+    "lat": 52.361944,
+    "lon": 18.706111,
+    "elevation": 109.0,
+    "teryt": "3009"
+  },
+  {
+    "id": "12360",
+    "name": "Płock",
+    "lat": 52.588333,
+    "lon": 19.725833,
+    "elevation": 106.0,
+    "teryt": "1462"
+  },
+  {
+    "id": "12375",
+    "name": "Warszawa",
+    "lat": 52.162778,
+    "lon": 20.961111,
+    "elevation": 106.0,
+    "teryt": "1465"
+  },
+  {
+    "id": "12385",
+    "name": "Siedlce",
+    "lat": 52.181111,
+    "lon": 22.244722,
+    "elevation": 152.0,
+    "teryt": "1464"
+  },
+  {
+    "id": "12399",
+    "name": "Terespol",
+    "lat": 52.078611,
+    "lon": 23.621944,
+    "elevation": 133.0,
+    "teryt": "0601"
+  },
+  {
+    "id": "12400",
+    "name": "Zielona Góra",
+    "lat": 51.93,
+    "lon": 15.524722,
+    "elevation": 192.0,
+    "teryt": "0862"
+  },
+  {
+    "id": "12415",
+    "name": "Legnica",
+    "lat": 51.1925,
+    "lon": 16.207778,
+    "elevation": 123.0,
+    "teryt": "0262"
+  },
+  {
+    "id": "12418",
+    "name": "Leszno",
+    "lat": 51.835556,
+    "lon": 16.534722,
+    "elevation": 91.0,
+    "teryt": "3063"
+  },
+  {
+    "id": "12424",
+    "name": "Wrocław",
+    "lat": 51.103333,
+    "lon": 16.9,
+    "elevation": 120.0,
+    "teryt": "0264"
+  },
+  {
+    "id": "12435",
+    "name": "Kalisz",
+    "lat": 51.781111,
+    "lon": 18.080833,
+    "elevation": 137.0,
+    "teryt": "3061"
+  },
+  {
+    "id": "12455",
+    "name": "Wieluń",
+    "lat": 51.210278,
+    "lon": 18.556667,
+    "elevation": 199.0,
+    "teryt": "1017"
+  },
+  {
+    "id": "12465",
+    "name": "Łódź",
+    "lat": 51.718333,
+    "lon": 19.387222,
+    "elevation": 174.0,
+    "teryt": "1061"
+  },
+  {
+    "id": "12469",
+    "name": "Sulejów",
+    "lat": 51.353333,
+    "lon": 19.866389,
+    "elevation": 188.0,
+    "teryt": "1010"
+  },
+  {
+    "id": "12488",
+    "name": "Kozienice",
+    "lat": 51.564722,
+    "lon": 21.543611,
+    "elevation": 123.0,
+    "teryt": "1407"
+  },
+  {
+    "id": "12495",
+    "name": "Lublin",
+    "lat": 51.216667,
+    "lon": 22.393056,
+    "elevation": 238.0,
+    "teryt": "0663"
+  },
+  {
+    "id": "12497",
+    "name": "Włodawa",
+    "lat": 51.553333,
+    "lon": 23.529444,
+    "elevation": 177.0,
+    "teryt": "0619"
+  },
+  {
+    "id": "12500",
+    "name": "Jelenia Góra",
+    "lat": 50.900278,
+    "lon": 15.788889,
+    "elevation": 342.0,
+    "teryt": "0261"
+  },
+  {
+    "id": "12510",
+    "name": "Śnieżka",
+    "lat": 50.736389,
+    "lon": 15.739722,
+    "elevation": 1603.0,
+    "teryt": "0206"
+  },
+  {
+    "id": "12520",
+    "name": "Kłodzko",
+    "lat": 50.436944,
+    "lon": 16.614167,
+    "elevation": 356.0,
+    "teryt": "0208"
+  },
+  {
+    "id": "12530",
+    "name": "Opole",
+    "lat": 50.626944,
+    "lon": 17.968889,
+    "elevation": 163.0,
+    "teryt": "1661"
+  },
+  {
+    "id": "12540",
+    "name": "Racibórz",
+    "lat": 50.061111,
+    "lon": 18.190833,
+    "elevation": 206.0,
+    "teryt": "2411"
+  },
+  {
+    "id": "12550",
+    "name": "Częstochowa",
+    "lat": 50.811944,
+    "lon": 19.091667,
+    "elevation": 293.0,
+    "teryt": "2464"
+  },
+  {
+    "id": "12560",
+    "name": "Katowice",
+    "lat": 50.240556,
+    "lon": 19.032778,
+    "elevation": 278.0,
+    "teryt": "2469"
+  },
+  {
+    "id": "12566",
+    "name": "Kraków",
+    "lat": 50.077778,
+    "lon": 19.795,
+    "elevation": 236.0,
+    "teryt": "1261"
+  },
+  {
+    "id": "12570",
+    "name": "Kielce",
+    "lat": 50.810556,
+    "lon": 20.692222,
+    "elevation": 260.0,
+    "teryt": "2661"
+  },
+  {
+    "id": "12575",
+    "name": "Tarnów",
+    "lat": 50.025556,
+    "lon": 20.941944,
+    "elevation": 210.0,
+    "teryt": "1263"
+  },
+  {
+    "id": "12580",
+    "name": "Rzeszów",
+    "lat": 50.110833,
+    "lon": 22.042222,
+    "elevation": 206.0,
+    "teryt": "1863"
+  },
+  {
+    "id": "12585",
+    "name": "Sandomierz",
+    "lat": 50.696667,
+    "lon": 21.715833,
+    "elevation": 217.0,
+    "teryt": "2609"
+  },
+  {
+    "id": "12595",
+    "name": "Zamość",
+    "lat": 50.698333,
+    "lon": 23.205556,
+    "elevation": 223.0,
+    "teryt": "0664"
+  },
+  {
+    "id": "12600",
+    "name": "Bielsko Biała",
+    "lat": 49.806667,
+    "lon": 19.002222,
+    "elevation": 396.0,
+    "teryt": "2461"
+  },
+  {
+    "id": "12625",
+    "name": "Zakopane",
+    "lat": 49.293889,
+    "lon": 19.960278,
+    "elevation": 852.0,
+    "teryt": "1217"
+  },
+  {
+    "id": "12650",
+    "name": "Kasprowy Wierch",
+    "lat": 49.2325,
+    "lon": 19.981944,
+    "elevation": 1990.0,
+    "teryt": "1217"
+  },
+  {
+    "id": "12660",
+    "name": "Nowy Sącz",
+    "lat": 49.627222,
+    "lon": 20.688611,
+    "elevation": 292.0,
+    "teryt": "1262"
+  },
+  {
+    "id": "12670",
+    "name": "Krosno",
+    "lat": 49.706667,
+    "lon": 21.769167,
+    "elevation": 330.0,
+    "teryt": "1861"
+  },
+  {
+    "id": "12690",
+    "name": "Lesko",
+    "lat": 49.466389,
+    "lon": 22.341667,
+    "elevation": 420.0,
+    "teryt": "1821"
+  },
+  {
+    "id": "12695",
+    "name": "Przemyśl",
+    "lat": 49.804167,
+    "lon": 22.771944,
+    "elevation": 230.0,
+    "teryt": "1862"
+  }
+]

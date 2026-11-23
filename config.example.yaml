@@ -1,0 +1,42 @@
+# Example configuration file for imgw-openmeteo-proxy.
+# Pass via: CONFIG_FILE=/path/to/config.yaml
+# Environment variables override values in this file.
+
+listen_addr: "127.0.0.1:8080"
+db_path: "./data/imgw.db"
+api_key: "" # Optional; when set, /v1/* requires Authorization: Bearer <key>, X-API-Key, or ?apikey=
+log_level: "info"
+
+# Upstream endpoints
+danepubliczne_base_url: "https://danepubliczne.imgw.pl/api/data"
+meteo_forecast_base_url: "https://meteo.imgw.pl"
+meteo_forecast_token: "p4DXKjsYadfBV21TYrDk"
+forecast_model: "hybrid" # hybrid (INCA+AROME) | alaro | arome
+upstream_timeout: 15s
+
+# Polling intervals (danepubliczne.imgw.pl batch endpoints)
+synop_poll_interval: 20m
+meteo_poll_interval: 10m
+hydro_poll_interval: 15m
+warnings_poll_interval: 10m
+
+# Forecast collection mode:
+#   "selected" -> only fetch forecasts for forecast_locations below (no client-triggered upstream requests)
+#   "all"      -> pre-fetch all ~62 IMGW synoptic stations on schedule + on-demand 0.05° grid TTL cache
+forecast_mode: "selected"
+forecast_poll_interval: 2h
+forecast_ttl: 2h
+forecast_request_delay: 750ms
+# forecast_allow_ondemand: false # defaults to false in "selected" mode, true in "all" mode
+
+forecast_locations:
+  - name: "Warszawa"
+    station_id: "12375"
+  - name: "Kraków"
+    station_id: "12566"
+  - name: "Custom Home"
+    lat: 52.2297
+    lon: 21.0122
+
+# Keep 90 days of observation history in SQLite for Open-Meteo past_days queries
+retention_days: 90

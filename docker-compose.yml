@@ -1,0 +1,38 @@
+services:
+  imgw-proxy:
+    build: .
+    container_name: imgw-openmeteo-proxy
+    restart: unless-stopped
+    # Bind to loopback by default so the proxy is NOT exposed publicly.
+    # Change to "0.0.0.0:8080:8080" only on a private LAN/VPN with API_KEY enabled.
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      LISTEN_ADDR: "0.0.0.0:8080"
+      DB_PATH: "/data/imgw.db"
+      LOG_LEVEL: "info"
+      # Optional: set a strong key to protect all /v1/* endpoints.
+      API_KEY: "${API_KEY:-}"
+
+      # Polling intervals (balanced defaults)
+      SYNOP_POLL_INTERVAL: "20m"
+      METEO_POLL_INTERVAL: "10m"
+      HYDRO_POLL_INTERVAL: "15m"
+      WARNINGS_POLL_INTERVAL: "10m"
+
+      # Forecast mode:
+      #   "all"      - pre-fetches all ~62 synoptic station coords on schedule + on-demand grid TTL cache
+      #   "selected" - pre-fetches ONLY FORECAST_LOCATIONS (zero IMGW traffic on client requests)
+      FORECAST_MODE: "${FORECAST_MODE:-selected}"
+      FORECAST_LOCATIONS: "${FORECAST_LOCATIONS:-12375;12566;12155}"
+      FORECAST_POLL_INTERVAL: "2h"
+      FORECAST_TTL: "2h"
+      FORECAST_REQUEST_DELAY: "750ms"
+
+      # History retention in SQLite
+      RETENTION_DAYS: "90"
+    volumes:
+      - imgw_data:/data
+
+volumes:
+  imgw_data:
